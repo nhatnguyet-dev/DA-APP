@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:background="#FFFFFF"/>
+        android:background="#ccc"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -48,7 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nhập email của bạn"
-        android:textColorHint="@color/white"
+        android:textColorHint="#ccc"
+        android:backgroundTint="#ccc"
         android:inputType="textEmailAddress"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="30dp"
@@ -72,7 +73,8 @@
         android:layout_height="wrap_content"
         android:hint="Nhập Password"
         android:inputType="numberPassword"
-        android:textColorHint="@color/white"
+        android:textColorHint="#ccc"
+        android:backgroundTint="#ccc"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
